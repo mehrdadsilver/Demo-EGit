@@ -47,6 +47,8 @@ class Booking
 	
 	Booking(){ } //jpa require this consruction
 	
+	
+	//Booking class
 	public Booking(Long id, String bookingName, int bookingSize) {
 		super();
 		this.id = id;
